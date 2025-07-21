@@ -1,0 +1,64 @@
+{
+  "monsters": [
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "cr": 0.25,
+      "type": "humanoid",
+      "tags": ["small", "tribal", "common"],
+      "description": "Small, green-skinned humanoids that live in tribes"
+    },
+    {
+      "id": "orc",
+      "name": "Orc",
+      "cr": 0.5,
+      "type": "humanoid", 
+      "tags": ["medium", "tribal", "aggressive"],
+      "description": "Fierce warriors with tusks and green skin"
+    },
+    {
+      "id": "dragon-wyrmling",
+      "name": "Dragon Wyrmling",
+      "cr": 2,
+      "type": "dragon",
+      "tags": ["young", "magical", "rare"],
+      "description": "A young dragon, still dangerous despite its size"
+    },
+    {
+      "id": "lich",
+      "name": "Lich",
+      "cr": 21,
+      "type": "undead",
+      "tags": ["spellcaster", "legendary", "evil"],
+      "description": "A powerful undead wizard who has achieved immortality"
+    },
+    {
+      "id": "mind-flayer",
+      "name": "Mind Flayer",
+      "cr": 7,
+      "type": "aberration",
+      "tags": ["psionic", "alien", "intelligent"],
+      "description": "Tentacled aberrations that feed on brains and dominate minds"
+    }
+  ],
+  "encounter_templates": [
+    {
+      "name": "Roadside Ambush",
+      "type": "combat",
+      "level_range": [1, 5],
+      "description": "Bandits or monsters attack travelers on the road"
+    },
+    {
+      "name": "Ancient Ruins",
+      "type": "exploration",
+      "level_range": [3, 10],
+      "description": "Explore mysterious ruins filled with traps and treasures"
+    },
+    {
+      "name": "Social Gathering",
+      "type": "social",
+      "level_range": [1, 20],
+      "description": "Navigate court politics or tavern negotiations"
+    }
+  ]
+} 

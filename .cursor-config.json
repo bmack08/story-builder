@@ -1,0 +1,31 @@
+{
+    "defaultModel": "claude-3.5-sonnet",
+    "modelOverrides": {
+      "**/dnd-adventure-creator/src/ai/**": "claude-3.5-sonnet",
+      "**/dnd-adventure-creator/src/components/**": "claude-3.5-sonnet",
+      "**/dnd-adventure-creator/src/data/**": "claude-3.5-sonnet",
+      "**/dnd-adventure-creator/src/pages/**": "claude-3.5-sonnet",
+      "**/dnd-backend/src/ai/**": "claude-3.5-sonnet",
+      "**/dnd-backend/src/controllers/**": "gpt-4",
+      "**/dnd-backend/src/routes/**": "gpt-4",
+      "**/dnd-backend/src/services/**": "gpt-4",
+      "**/dnd-backend/src/models/**": "gpt-4",
+      "**/frontend/src/ai/**": "claude-3.5-sonnet",
+      "**/frontend/src/components/**": "claude-3.5-sonnet",
+      "**/frontend/src/data/**": "claude-3.5-sonnet",
+      "**/frontend/src/pages/**": "claude-3.5-sonnet",
+      "**/backend/ai/**": "claude-3.5-sonnet",
+      "**/backend/routes/**": "gpt-4",
+      "**/backend/schemas/**": "gpt-4",
+      "**/backend/models/**": "gpt-4",
+      "**/*.md": "claude-3.5-sonnet",
+      "**/README.md": "claude-3.5-sonnet",
+      "**/test/**": "gpt-4",
+      "**/types/**": "gpt-4"
+    },
+    "settings": {
+      "enableSmartModelSwitching": true,
+      "includeSubdirectories": true
+    }
+  }
+  
